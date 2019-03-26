@@ -4,7 +4,7 @@
   "description": "REST API for accessing data from jobs_scraper",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +25,8 @@
     "mongoose": "^5.4.14",
     "swagger-jsdoc": "^3.2.8",
     "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
