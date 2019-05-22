@@ -6,6 +6,6 @@ const jobs = express.Router();
 
 jobs
   .get('/jobs', jobsController.getJobs)
-  .get('/jobs/:id', jobsController.getJob)
+  .get('/jobs/:id', jobsController.getJob) 
 
 module.exports = jobs;
